@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ - Souvenir Connect</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="../index.html"><img src="../assets/images/anhnen.jpg" alt="Ảnh nền" > Souvenir Connect</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Trang Chủ</a></li>
+                <li><a href="san-pham.html">Sản Phẩm</a></li>
+                <li><a href="gioi-thieu.html">Giới Thiệu</a></li>
+                <li><a href="lien-he.html">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container" style="max-width: 600px;">
+        <h2 style="margin-bottom: 20px;">Gửi Lời Nhắn Đến Chúng Tôi</h2>
+        
+        <form id="contact-form" style="background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
+            <div class="form-group">
+                <label for="txt-name">Họ và Tên</label>
+                <input type="text" id="txt-name" class="form-control" placeholder="Nhập tên của bạn...">
+            </div>
+            <div class="form-group">
+                <label for="txt-email">Email</label>
+                <input type="email" id="txt-email" class="form-control" placeholder="name@example.com">
+            </div>
+            <div>
+                <label for="role">Bạn là:</label>
+                     <select class="form-control">
+                         <option value="buyer">Người mua / Đối tác tiêu thụ</option>
+                         <option value="seller">Người bán / Đối tác kinh doanh</option>
+                     </select>
+            </div>
+            <div class="form-group">
+                <label for="txt-msg">Để Lại Lời Nhắn</label>
+                <textarea id="txt-msg" class="form-control" rows="5" placeholder="Để lại lời nhắn cho tôi..."></textarea>
+            </div>
+            <button type="submit" class="btn" style="width: 100%;">Gửi Liên Hệ</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>© 2026 Souvenir Connect. Khám phá - Mua sắm - Kết nối những món quà lưu niệm độc đáo.</p>
+        <p>Đồ án website quảng bá và kinh doanh sản phẩm lưu niệm.</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
