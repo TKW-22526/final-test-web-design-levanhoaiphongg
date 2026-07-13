@@ -179,6 +179,6 @@ Họ và tên:
 Mã số sinh viên:
 Lớp:
 Tên đề tài:
-Liên kết GitHub repository:
-Liên kết GitHub Pages:
+Liên kết GitHub repository:https://github.com/TKW-22526/final-test-web-design-levanhoaiphongg.git
+Liên kết GitHub Pages:https://tkw-22526.github.io/final-test-web-design-levanhoaiphongg/
 ```
