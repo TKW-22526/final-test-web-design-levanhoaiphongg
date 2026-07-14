@@ -129,7 +129,7 @@ if (p) {
                     <p><strong>Khu vực:</strong> ${p.area}</p>
                     <p><strong>Đánh giá:</strong> ${p.rating}</p>
 
-                    <button id="btn-chat" class="btn" style="margin-top:15px;width:100%">
+                    <button id="btn-chat" class="btn btn-danger" style="margin-top:15px;width:100%">
                         Chốt Đơn Với Người Bán
                     </button>
                 </div>

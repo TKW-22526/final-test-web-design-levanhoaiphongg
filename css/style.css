@@ -89,21 +89,10 @@ header {
     margin-bottom: 20px;
 }
 
-.btn {
-    display: inline-block;
-    background-color: #ff4d4d;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background 0.3s;
-    border: none;
-    cursor: pointer;
-}
+
 
 .btn:hover {
-    background-color: #e03e3e;
+    background-color: #3ee0ad;
 }
 
 /* Main Container */
